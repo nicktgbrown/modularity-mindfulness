@@ -1,12 +1,7 @@
 html {
   box-sizing: border-box;
 
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
-  font-family: "PT Sans", sans-serif;
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 
 *, *::before, *::after {
@@ -16,10 +11,6 @@ html {
 .img-flex {
   display: block;
   width: 100%;
-}
-
-header h2 {
-  font-family: "Noto Sans Japanese", sans-serif;
 }
 
 header a {
@@ -34,4 +25,12 @@ hr {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-color: #e2e2e2;
+}
+
+.button {
+  border-style: solid;
+  border-color: #b64c6e;
+  border-width: 1px;
+  background-color: #fff;
+  color: #860927;
 }
