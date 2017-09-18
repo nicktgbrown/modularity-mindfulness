@@ -1,6 +1,6 @@
 html {
   color: #000;
-  font-family: "Noto Sans Japanese", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 header a {
@@ -35,6 +35,22 @@ hr {
   color: #860927;
 }
 
+.footnote {
+  color: #e2e2e2;
+}
 
+.font-jp {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
+@media only screen and (min-width: 60em) {
+
+  ul {
+    text-align: right;
   }
 
+  header, section {
+    text-align: left;
+  }
+
+}
