@@ -1,6 +1,6 @@
 html {
-  font-family: "Noto Sans Japanese", sans-serif;
   color: #000;
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 
 header a {
@@ -9,6 +9,10 @@ header a {
   border-bottom-width: 2px;
   text-decoration: none;
   border-color: #d89fb0;
+}
+
+header a:hover {
+  color: #d89fb0;
 }
 
 hr {
@@ -22,7 +26,7 @@ hr {
   border-color: #b64c6e;
   border-width: 1px;
   background-color: #fff;
-  color: #860927;
+  color: #b64c6e;
 }
 
 .btn:hover {
@@ -30,3 +34,7 @@ hr {
   border-color: #b64c6e;
   color: #860927;
 }
+
+
+  }
+
